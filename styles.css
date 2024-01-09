@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(56, 88, 117);
+}
+
+h1{
+    text-align: center;
+}
+
+#container{
+    width: auto;
+    margin: 40px;
+    padding: 100px; 
+    background: #111111;
+    border: 5px solid #444444;
+    cursor: pointer;
+    background-color: black;
+}
+
+
+.selected-emoji {
+    font-size: 48px;
+    width: 250px;
+    margin-top: 10px;
+    /* text-align: center; */
+    margin-left: 160px;
+}
+
