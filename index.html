@@ -9,13 +9,31 @@
 
 </head>
 <body>
-    <h1><span>EMOJI GENERATOR</span></h1>  
-        <div id="container"> 
-            <div class="selected-emoji" id="selected-emoji"></div>
-            <select id="emoji-selected" onchange="displaySelectedEmoji()">
-                <option id="option" value="" disabled selected>Select an emoji</option>
-            </select>
+    <h1><span>DAILY JOURNAL</span></h1>  
+
+            <section id="parent">
+                    <h1><span>MOOD</span></h1>
+                     <label > <input style="margin-top:10pt" type="text" placeholder="Username"></label></br>
+                    <label>  <input type="password" placeholder="Password"></label></br>
+
+                    
+                    <div id="container"> 
+                <div class="selected-emoji" id="selected-emoji"></div>
+                    <select id="emoji-selected" onchange="displaySelectedEmoji()">
+                        <option id="option" value="" disabled selected>How are you feeling today?</option>
+                    </select>
         </div>
+                   
+                    <input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01" max="2018-12-31" /><br>
+                    <input style="padding: 200px" type='text' id='userParagraph' >
+
+                    <button style="margin-top:15pt;margin-bottom:100pt" type="submit">Save</button></br>
+                    <label>  <input type="checkbox" Placeholder="Remember Me"> Remember Me </label>
+                        <a style="color:rgb(142, 226, 86)" = "#">Forgot Password</a>
+                    <p>Don't have an account
+                    <a style="color:rgb(142, 226, 86)"href="#">Register</a></p>
+
+            </section>
 
 </body>
 </html>
